@@ -35,3 +35,9 @@
   height: 200px;
 }
 
+
+@media  screen and (max-width: 800px) {
+  .pm-ticket {
+    height: auto;
+  }
+}
