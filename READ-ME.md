@@ -9,7 +9,7 @@ L’output del prezzo finale va messo fuori in forma umana (con massimo due deci
 
 ## Steps:
 
--  Salvare i chilometri che vuole fare l'utente in una variabile;
+- Salvare i chilometri che vuole fare l'utente in una variabile;
 - Salvare l'età dell'utente in una variabile;
 - Calcolare il prezzo del biglietto in base ai chilometri tenendo conto che per ogni chilometro il prezzo è di 0.21€;
 - Applicare uno sconto del 20% se l'utente ha meno di 18 anni;
