@@ -4,5 +4,14 @@ const kmDaPercorrere = prompt ('Quanti Km vuoi percorrere?');
 const anniUtente = prompt ('Quanti anni hai?');
 console.log(kmDaPercorrere, anniUtente);
 
-const prezzoTotale = (prezzoAlKm * kmDaPercorrere);
-console.log(prezzoTotale); 
+let prezzoTotale = (prezzoAlKm * kmDaPercorrere);
+
+
+
+if (anniUtente < 18 ) {
+  prezzoTotale = (prezzoTotale - ((prezzoTotale / 100)* 20))
+}else if (anniUtente > 65) {
+  prezzoTotale = (prezzoTotale - ((prezzoTotale / 100)* 40))
+}
+
+ console.log(prezzoTotale);
