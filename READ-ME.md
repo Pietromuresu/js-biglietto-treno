@@ -7,3 +7,11 @@ va applicato uno sconto del 20% per i minorenni
 va applicato uno sconto del 40% per gli over 65.
 L’output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 
+## Steps:
+
+-  Salvare i chilometri che vuole fare l'utente in una variabile;
+- Salvare l'età dell'utente in una variabile;
+- Calcolare il prezzo del biglietto in base ai chilometri tenendo conto che per ogni chilometro il prezzo è di 0.21€;
+- Applicare uno sconto del 20% se l'utente ha meno di 18 anni;
+- Applicare uno sconto del 40% se l'utente ha più di 65 anni;
+- Stampare il prezzo in pagina.
