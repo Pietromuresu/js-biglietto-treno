@@ -6,7 +6,7 @@ console.log(kmDaPercorrere, anniUtente);
 
 let prezzoTotale = (prezzoAlKm * kmDaPercorrere);
 
-
+document.getElementById('kmToDo').innerHTML = kmDaPercorrere + 'Km'
 
 if (anniUtente < 18 ) {
   prezzoTotale = (prezzoTotale - ((prezzoTotale / 100)* 20))
@@ -15,3 +15,5 @@ if (anniUtente < 18 ) {
 }
 
  console.log(prezzoTotale);
+
+ document.getElementById('totalPrice').innerHTML = prezzoTotale.toFixed(2) + '€'
